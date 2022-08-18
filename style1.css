@@ -1,0 +1,14 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    color: black;
+}
+
+li{
+    display: inline;
+    color: brown;
+}
+
+#main_header{
+    color: red;
+}
