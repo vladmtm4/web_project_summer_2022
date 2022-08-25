@@ -7,8 +7,19 @@
 li{
     display: inline;
     color: brown;
+    border: 10px double black ;
 }
 
 #main_header{
     color: red;
+    
+}
+
+#submit{
+    background-color: greenyellow;
+}
+
+label
+{
+    color: rgb(255, 127, 219);
 }
