@@ -1,0 +1,44 @@
+*
+{
+    margin: 1px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+#container
+{
+display: grid;
+grid-template-areas: 
+'item1 item1 item1'
+'item2 item3 item3'
+'item2 item3 item3';
+}
+
+#item1 {
+    grid-area: item1;
+    background-color: aqua;
+    height: 30vh;
+    animation-name: aquablink;
+    animation-duration: 1s;
+    animation-iteration-count: 12;
+    animation-timing-function: ease-in-out;
+}
+#item2 {
+    grid-area: item2;
+    background-color: brown;
+    height: 70vh;
+}
+#item3 {
+    grid-area: item3;
+    background-color: blue;
+    height: 70vh;
+
+}
+
+@keyframes aquablink {
+
+    0% {background-color: aqua;}
+    50% {background-color: white;}
+    100% {background-color: aqua;}
+
+}

@@ -1,7 +1,21 @@
+:root
+{
+    --redish : #ff0022;
+    --lightblueish : #edfdfb;
+    --mygrey : #b9bab8;
+    --mypink :#f8e9f2;
+    --myblack : #04030f;
+    
+}
+
 *{
-    margin: 5px;
     padding: 5px;
-    color: black;
+    margin: 5px;
+}
+
+body
+{
+    background-color: var(--mypink);
 }
 
 li{
@@ -19,7 +33,23 @@ li{
     background-color: greenyellow;
 }
 
-label
+label,input
 {
-    color: rgb(255, 127, 219);
+    color: rgb(255, 127, 219);    
+}
+
+a:link {
+    color: blue;
+}
+a:visited
+{
+}
+a:hover
+{
+    background-color: blue;
+
+}
+input[name]
+{
+    background-color: yellow;
 }
